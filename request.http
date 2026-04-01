@@ -1,0 +1,34 @@
+### GET request to example server
+### GET https://examples.http-client.intellij.net/get
+###    ?generated-in=IntelliJ IDEA
+
+###
+
+### POST "HELLO!"
+
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+    "text": "Hello!"
+}
+
+### post "bonjour!"
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "text": "Bonjour!"
+}
+
+### Post "Privet!"
+
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "text": "Privet!"
+}
+
+### Get all the messages
+GET http://localhost:8080
